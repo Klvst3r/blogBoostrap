@@ -5,3 +5,8 @@ script:src 				Enlaces a archivos JS
 .container				<div class="container"></div>
 .navbar-header			<div class="navbar-header"></div>
 button 					<button type=""></button>
+div.					<div class=""></div>
+li.active 				<li class="active" ></li>
+a 						<a href="" title=""></a>
+ul.dropdown-menu		<ul class="dropdown-menu"></ul>
+li>a 					<li><a href=""></a></li>
