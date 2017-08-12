@@ -11,3 +11,7 @@ Blog Boostrap
 	https://code.jquery.com/jquery-migrate-1.4.1.min.js
 	https://code.jquery.com/jquery-3.2.1.min.js (Descargada)
 
+3. Create Navbar
+   Example - url: https://getbootstrap.com/docs/3.3/components/#navbar
+	(atribute)-fm change to (atribute)-ks
+

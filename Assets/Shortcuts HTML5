@@ -2,3 +2,6 @@ Shortcuts HTML5
 
 link					Enlace a CSS
 script:src 				Enlaces a archivos JS
+.container				<div class="container"></div>
+.navbar-header			<div class="navbar-header"></div>
+button 					<button type=""></button>
