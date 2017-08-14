@@ -1,0 +1,68 @@
+Formularios
+=================
+
+Los controles tipo input, textarea, select llevan una clase en especifico
+
+
+
+form-control				Esta clase le da estilo definido a controles de entrada y seleccion, 
+
+
+Controles soportados para formularios paa form-control
+
+text
+password
+datetame
+datetime-local
+date
+month
+tim
+week
+number
+email
+url
+search
+tel
+color
+
+
+form-group 				Agrega un grupo para un elemento agrupado con label y el control
+
+
+
+Botones
+
+btn btn-primary			Crea un estilo de boton primario 
+
+
+<p class="help-block"></p>		Da un estilo diferente para indicar instrucciones en el formulario
+
+Formulario en linea
+
+sr-only					Para dispositivos de solo lectura
+
+checkbox 				Encierra todo el div
+
+input-group 			Agrupa los input a un lado del otro
+
+nput-group-addon 		Ponemos un boton al lado del tipo del control
+
+form-group 				Agrega los elementos y controles como un solo grupo dentro de un formulario
+
+control-label 			Tiene la etiqueta del formulario
+
+form-horizontal 			Permite trabajar y dar espaciados para formularios en linea 
+
+form-control-static 	Permite indicar un estilo estatico y por defecto
+
+disabled 				Deshabilita el control especofico
+<fieldset disabled>		Deshabilita los controles contenidos en esta etiqueta
+
+
+Validaciones
+has-success				Color verde
+has-warning				Color Amarillo
+has-error				Color Rojo
+
+
+Tamaño de los formularios
