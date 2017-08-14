@@ -55,7 +55,7 @@ form-horizontal 			Permite trabajar y dar espaciados para formularios en linea
 
 form-control-static 	Permite indicar un estilo estatico y por defecto
 
-disabled 				Deshabilita el control especofico
+disabled 				Deshabilita el control especifico, tambien se agrega en el control del formulario
 <fieldset disabled>		Deshabilita los controles contenidos en esta etiqueta
 
 
@@ -66,3 +66,53 @@ has-error				Color Rojo
 
 
 Tamaño de los formularios
+
+Checkbox
+<div class="checkbox">	Permite tener un checkbox arriba del otro
+checkbox-inline			Establece os checkbox en linea y debe quitarse la etiqueta div si es que existe dentro del checkbox
+radio-inline			Al igual que los checkbox va dentro de la etiqueta label y coloca los radiobutton en linea
+
+
+Tamaños
+input-lg				Entrada Grande
+input-sm 				Entrada pequeña
+
+
+form-group-lg			Grupo de entrada grande
+form-group-sm			Grupo de entrada pequeña
+
+<div class="col-xs-2">
+    <input type="text" class="form-control" placeholder=".col-xs-2">
+    					Establece un tamaño en dos columnas
+
+
+ <div class="col-xs-3">
+    <input type="text" class="form-control" placeholder=".col-xs-3">
+  </div>
+  						Establece el tamaño utilizando 3 columnas
+
+<div class="col-xs-4">
+    <input type="text" class="form-control" placeholder=".col-xs-4">
+  </div>
+  						Establece el tamaño en cuatro culumnas
+
+
+Botones
+
+btn btn-default			Color Primario
+btn btn-success  		Color Correcto Verde
+btn btn-info			Boton con color info azul claro
+btn btn-warning			Boton con color amarillo
+btn btn-danger			Boton con color rojo
+btn btn-link			Establece el boton como un enlace
+
+Tamaño de los botones
+btn-lg	  				Boton grande
+sin etiqueta 			default
+btn-sm					Boton pequeña
+btn-xs					Botono extrapequeño
+
+Estado de los botones
+active					Lo mantiene activo (Como si estuviera presionado)			    					
+
+disabled="disabled"		Deshabilita el boton

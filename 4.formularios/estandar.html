@@ -10,32 +10,59 @@
 </head>
 <body>
 	
-	<form action="">
-		<label>Label Básica</label>
-		<br/>
-		
-		<input type="text" placeholder="Input Basico">
-		<br/>
-
-		<textarea name="" id="" placeholder="Textarea"></textarea>
-		<br/>
-
-		<input type="checkbox" name="" id="" />Checkbox #1
-		<br/>
-		<input type="checkbox" name="" id="" />Checkbox #2
-		<br/>
-		<input type="checkbox" name="" id="" />Checkbox #3
-		<br/>
-
-		<input type="radio" name="opcion" id="radio1" /><label for="radio1">Radio Button # 1</label>
-		<br/>
-		<input type="radio" name="opcion" id="radio2" /><label for="radio1">Radio Button # 2</label>
-		<br/>
-		<input type="radio" name="opcion" id="radio3" /><label for="radio1">Radio Button # 3</label>
-		<br/>
+	<div class="container">
+		<form action="">
+			<div class="form-group">
+				<label>Label Básica</label>		
+				<input class="form-control" type="text" placeholder="Input Basico">
+			</div>
 
 
-	</form>
+			<textarea class="form-control" name="" id="" placeholder="Textarea"></textarea>
+
+			<div class="form-group">
+				<div class="checkbox">
+					<label class="checkbox-inline"><input type="checkbox" name="" id="" />Checkbox #1</label>
+				</div>
+				
+				<label class="checkbox-inline"><input type="checkbox" name="" id="" />Checkbox #2</label>
+				
+				
+				<label class="checkbox-inline"><input type="checkbox" name="" id="" disabled/>Checkbox #3</label>
+				<br/><br/>		
+			</div>				
+
+
+			<div class="form-group">
+				<div class="radio disabled">
+					<label for="radio1">
+						<input type="radio" name="opcion" id="radio1" disabled/>Radio Button # 1
+					</label>
+				</div>
+				<div class="radio">
+					<label for="radio1">	
+						<input type="radio" name="opcion" id="radio2" />Radio Button # 2
+					</label>
+				</div>
+				
+				<label for="radio1" class="radio-inline">
+					<input type="radio" name="opcion" id="radio3" />Radio Button # 3
+				</label>
+				
+				<label for="radio1" class="radio-inline">
+					<input type="radio" name="opcion" id="radio3" />Radio Button # 3
+				</label>
+			</div>
+			
+		</form>
+	</div>
+
+	<div class="form-group">
+		<div class="col-md-1 col-md-offset-1">
+			<button class="btn btn-primary" type="" >Enviar</button>
+		</div>
+	</div>
+
 
 	<script type="http://code.jquery.com/jquery-latest.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
