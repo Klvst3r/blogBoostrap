@@ -1,0 +1,19 @@
+Clases para Tablas
+
+table 					Crea la estructura basica de una tabla
+table-striped			Akterna colores en las tablas
+table-border			Crea bordes a la tabla
+table-hover				Resalta la posici´on del cursor
+table-condensed			Comprime los espacios de las tablas optimizando espacios
+<tr class="active">		Mantiniene la fila activa
+<tr class="success">	Color en la tabla con caracteristica success
+<tr class="info">
+<tr class="warning">
+<tr class="warning">
+
+
+Tablas Responsivas
+<div class="table-responsive">
+			<table class="table table-bordered table-hover">
+			<table>
+</table>
