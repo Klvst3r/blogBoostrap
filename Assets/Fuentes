@@ -2,3 +2,48 @@ Fuentes
 
 Introduction to JavaScript Source Maps
 https://www.html5rocks.com/en/tutorials/developertools/sourcemaps/
+
+clases en parrafos
+
+lead					permite escribir un poco mas grande la letra, no es header le da mas importancias
+<mark>					marcado de importancia, subrayado o marcatexto, destacados
+<del>					tachado o borrado, hace saber al usuario
+<s>						Tacha de igual manera, subrayado en medio
+<ins>					Indica que se ha introducido un texto nuevo
+<u>						Subyarado inferior
+<small>					Texto mas pequeño a lo que es el parrafo actual
+<strong>				Negritas estandar
+<b>						Tambienes negritas
+<em>					Italicas
+text-left				Alineación a la izquierda, por defecto
+text-justify			Justificación
+text-right				Justifica el texto a la derecha
+text-lowercase 			Todo el texto lo convierte a minusculas
+text-uppercase 			Convierte todo a mayusculas
+text-capitalize 		El primer caracter de cada palabra lo convierte a mayusculas
+
+Blockcuotes
+blockquote				Crea una cita o frase celebre
+	<footer> 				Indica el autor de la frase celebre
+	<cite>					Indica la fuente de la frase
+
+Codigo
+<code>					Indica algun codigo	
+<pre>					Bloque de codigo
+
+Clases para cambiar colores de texto
+
+text-muted				Texto Gris sin color
+text-primary			Texto Azul primario
+text-success			Texto Verde satisfactorio
+text-info				Texto Azul informativo
+text-warning			Texto de advertencia
+text-danger				Texto de peligro
+
+Clases para agragar fondo en el texto
+bg-primary				Fondo primario
+bg-success				Fondo correcto
+bg-info					Fondo informativo
+bg-warning				Fondo de advertencia
+bg-danger				Fondo de peligro
+
