@@ -10,3 +10,6 @@ col-x								Columnas extra small para dispositivos mobiles celulares
 col-sm								Dispositivos de tabletas
 col-md 								Tabletas mas grandes en formatos horizontal
 col-lg 								Largo para computadoras de escritorio
+
+
+.col-md3*4							Una fila con cuatro columnas
