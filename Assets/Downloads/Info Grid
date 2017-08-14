@@ -1,0 +1,12 @@
+Info Grid
+
+<div class="container">				Centra el contenido en el contenedor
+<section class="main row">			Crea la fila del grid en el contenedor section
+	<article class="col-md-9">			Utiliza 9 columnas medianas para el article
+	<aside class="col-md-3">			Utiliza 3 columnas medianas para el aside
+
+Tipos de medidas en columnas
+col-x								Columnas extra small para dispositivos mobiles celulares
+col-sm								Dispositivos de tabletas
+col-md 								Tabletas mas grandes en formatos horizontal
+col-lg 								Largo para computadoras de escritorio
