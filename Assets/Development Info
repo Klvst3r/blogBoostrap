@@ -26,3 +26,5 @@ Blog Boostrap
 6. Boostrap CDN
 	https://getbootstrap.com/docs/3.3/getting-started/	
 	http://code.jquery.com/jquery-latest.js
+	Solucion al problema de columnas dispares
+		https://getbootstrap.com/docs/3.3/css/#grid-offsetting
