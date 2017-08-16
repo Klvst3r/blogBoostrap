@@ -1,0 +1,38 @@
+Clases Botones
+==============================
+
+<button class="btn btn-default">Default</button>		Boton Default			
+<button class="btn btn-primary">Primary</button>		Boton primario
+<button class="btn btn-success">Success</button>		Boton con exito
+<button class="btn btn-info">Info</button>				Boton informativo
+<button class="btn btn-warning">Warning</button>		Boton de alerta
+<button class="btn btn-danger">Danger</button>			Boton de peligro
+<button class="btn btn-link">Link</button>				Boton tipo enlace
+
+
+Botones con ancla
+
+<a href="#" class="btn btn-default">Default</a>
+<a href="#" class="btn btn-primary">Primary</a>
+<a href="#" class="btn btn-success">Success</a>
+<a href="#" class="btn btn-info">Info</a>
+<a href="#" class="btn btn-warning">Warning</a>
+<a href="#" class="btn btn-danger">Danger</a>
+<a href="#" class="btn btn-link">Link</a>
+
+
+Tamaños de botones
+
+bt-lg 					Boton Grande
+btn-sm					Boton pequeño
+btn-xs					Boton extra pequeño
+
+
+Grupos
+btn-block				Genera un bloque de botones
+
+
+active 					Funciona como si estuviera presionado
+
+disabled				Deshabilita el boton
+

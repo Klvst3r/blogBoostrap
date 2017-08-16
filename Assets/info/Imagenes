@@ -1,0 +1,9 @@
+Imagenes
+
+img-responsive				Pone el 100% a lo ancho de la imagen de acuerdo al contenedor
+
+img-rounded					Pone bordes redondeados
+img-circle					Imagen en circulo
+img-thumbnail				Redondea las esquinas y con un borde o margen
+
+

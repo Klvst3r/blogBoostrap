@@ -1,0 +1,76 @@
+Responsive Utilities
+
+Ofrecen el mostrar u ocultar contenido, podemos tener el sidebar, mediano o amplio quitarlo definitivamente.
+
+En un Blog en la estructura con el sidebar, desaparece al disminuri el tamaño de acuerdo a la resolucion del dispositivo.
+
+Las clases responsive son varias divididas en dos ramas principales
+
+Mostrar y ocultar
+Al querer indicar que en dispositivos grandes se muestre el contenido, pero en dispositivios medianos y pequños no se muestre.
+
+visible-lg 					Indica si es visible sono en dispositivos grandes
+visible-md 					Visible en el tamaño mediano
+visible-sm					Visible en formato pequeño
+visible-xs 					Visible en extrapequeño
+
+Pueden juntarse dos clases para un mismo componente por ejemplo
+<aside class="visible-md visible-lg col-xs-12 col-sm-4 col-md-3 col-lg-3">
+
+Para ocultar
+hidden 						Ocultar el contenido para el dispositivio especificado
+ 
+hidden-lg 					Ocultar en formato grande
+hidden-md 					Ocultar en tamaño mediando.
+hidden-sm					ocultar en small
+hidden-xs 					Ocultar en tamaño extrapequeño
+
+Podemos agregar dos tamaño
+<aside class="hidden-sm hidden-xs col-xs-12 col-sm-4 col-md-3 col-lg-3">
+
+
+Referencias y tamaños de los dispositivos
+https://v4-alpha.getbootstrap.com/layout/responsive-utilities/
+
+ 				Extra small devices		Small devices			Medium devices			Large devices			Extra large devices
+				Portrait phones			Landscape phones 		Tablets 				Desktops 				Desktops
+				(<544px)				(≥544px - <768px)		(≥768px - <992px)		(≥992px - <1200px) 		(≥1200px)
+
+.hidden-xs-down 	Hidden 				Visible 				Visible 				Visible 				Visible
+.hidden-sm-down 	Hidden 				Hidden 					Visible 				Visible 				Visible
+.hidden-md-down 	Hidden 				Hidden 					Hidden 					Visible 				Visible
+.hidden-lg-down 	Hidden 				Hidden 					Hidden 					Hidden 					Visible
+.hidden-xl-down 	Hidden 				Hidden 					Hidden 					Hidden 					Hidden
+.hidden-xs-up 		Hidden 				Hidden 					Hidden 					Hidden 					Hidden
+.hidden-sm-up 		Visible 			Hidden 					Hidden 					Hidden 					Hidden
+.hidden-md-up 		Visible 			Visible 				Hidden 					Hidden 					Hidden
+.hidden-lg-up 		Visible 			Visible 				Visible 				Hidden 					Hidden
+.hidden-xl-up 		Visible 			Visible 				Visible 				Visible 				Hidden
+
+
+
+Establecemos
+<a href="#" class="btn btn-primary visible-md-inline">Boton</a>
+							El elementos es de bloque y por ello se especifica al final que sea en linea para que no abarque todo el elemento en la linea
+
+<a href="#" class="btn btn-primary visible-md-block">Boton</a>							
+							Convertir un elemento boton a elemento bloque
+
+
+Ejemplo
+<a href="#" class="btn btn-primary visible-lg-block visible-md-inline">Boton</a>
+							En dispositivos moviles bloque y en dispositivos medianos in linea
+
+visible-lg-block visible-md-inline
+
+visible-print-inline
+visible-print-block
+visible-print-inline-block  Boton solo visible cuando el usuario vaya a imprimir
+
+
+Ocultar a la hora de imprimir
+hidden-print
+
+
+
+

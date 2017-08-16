@@ -1,0 +1,23 @@
+Helper Clases
+
+
+Floats rapidos
+
+pull-left				Empuja los elementos a la izquierda
+pull-right				Empuja los elementos a la derecha
+
+
+<div class="clearfix"></div>				Sel suele poner dentro de un div al final de los elementos
+											Limpia clases del contenido
+
+
+Contenedores
+
+<div style="width:300px;" class="bg-success">	Quiero central el contenedor
+center-block								Tiene que tener medidas para centrarse y tener medidas inferiores al 100%
+
+
+hidden										Mostrar y oultar contenido
+show
+sr-only										Contenido disponible solo para dispositivos de lectura como Kindl
+
