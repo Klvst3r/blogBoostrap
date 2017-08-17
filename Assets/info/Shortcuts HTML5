@@ -10,3 +10,25 @@ li.active 				<li class="active" ></li>
 a 						<a href="" title=""></a>
 ul.dropdown-menu		<ul class="dropdown-menu"></ul>
 li>a 					<li><a href=""></a></li>
+
+Dropdown
+li>*4>a[href="#"]{Item #$}
+						<li>
+							<a href="#">Item #1</a>
+							<a href="#">Item #2</a>
+							<a href="#">Item #3</a>
+							<a href="#">Item #4</a>
+						</li>
+
+
+li*4>a[href="#"]{Item #$}
+						<li><a href="#">Item #1</a></li>
+						<li><a href="#">Item #2</a></li>
+						<li><a href="#">Item #3</a></li>
+						<li><a href="#">Item #4</a></li>
+
+
+button.btn.btn-default*3
+						<button class="btn btn-default"></button>
+						<button class="btn btn-default"></button>
+						<button class="btn btn-default"></button>						
