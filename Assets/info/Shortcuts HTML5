@@ -32,3 +32,9 @@ button.btn.btn-default*3
 						<button class="btn btn-default"></button>
 						<button class="btn btn-default"></button>
 						<button class="btn btn-default"></button>						
+
+ul.nav-tabs				<ul class="nav-tabs"></ul>
+	li[role="presentation"]*3>a[href="#"]{Item #$}
+						<li role="presentation"><a href="#">Item #1</a></li>
+						<li role="presentation"><a href="#">Item #2</a></li>
+						<li role="presentation"><a href="#">Item #3</a></li>
