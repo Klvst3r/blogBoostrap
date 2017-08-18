@@ -38,3 +38,8 @@ ul.nav-tabs				<ul class="nav-tabs"></ul>
 						<li role="presentation"><a href="#">Item #1</a></li>
 						<li role="presentation"><a href="#">Item #2</a></li>
 						<li role="presentation"><a href="#">Item #3</a></li>
+
+li*3>a{Item #$}
+						<li><a href="">Item #1</a></li>
+						<li><a href="">Item #2</a></li>
+						<li><a href="">Item #3</a></li>
